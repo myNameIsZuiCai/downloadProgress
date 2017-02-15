@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BDB7E89D1E31A74800A7ABF5 /* progressView.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB7E89C1E31A74800A7ABF5 /* progressView.m */; };
 		BDBDAF511E30B34E00E9769E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBDAF501E30B34E00E9769E /* main.m */; };
 		BDBDAF541E30B34E00E9769E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBDAF531E30B34E00E9769E /* AppDelegate.m */; };
 		BDBDAF571E30B34E00E9769E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBDAF561E30B34E00E9769E /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BDB7E89B1E31A74800A7ABF5 /* progressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = progressView.h; sourceTree = "<group>"; };
+		BDB7E89C1E31A74800A7ABF5 /* progressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = progressView.m; sourceTree = "<group>"; };
 		BDBDAF4C1E30B34E00E9769E /* 模拟下载进度.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "模拟下载进度.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDBDAF501E30B34E00E9769E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BDBDAF521E30B34E00E9769E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -110,6 +113,8 @@
 				BDBDAF5D1E30B34E00E9769E /* LaunchScreen.storyboard */,
 				BDBDAF601E30B34E00E9769E /* Info.plist */,
 				BDBDAF4F1E30B34E00E9769E /* Supporting Files */,
+				BDB7E89B1E31A74800A7ABF5 /* progressView.h */,
+				BDB7E89C1E31A74800A7ABF5 /* progressView.m */,
 			);
 			path = "模拟下载进度";
 			sourceTree = "<group>";
@@ -274,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDBDAF571E30B34E00E9769E /* ViewController.m in Sources */,
+				BDB7E89D1E31A74800A7ABF5 /* progressView.m in Sources */,
 				BDBDAF541E30B34E00E9769E /* AppDelegate.m in Sources */,
 				BDBDAF511E30B34E00E9769E /* main.m in Sources */,
 			);
@@ -507,6 +513,7 @@
 				BDBDAF7B1E30B34E00E9769E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BDBDAF7C1E30B34E00E9769E /* Build configuration list for PBXNativeTarget "模拟下载进度Tests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +522,7 @@
 				BDBDAF7E1E30B34E00E9769E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BDBDAF7F1E30B34E00E9769E /* Build configuration list for PBXNativeTarget "模拟下载进度UITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +531,7 @@
 				BDBDAF811E30B34E00E9769E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
